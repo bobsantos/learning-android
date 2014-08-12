@@ -22,14 +22,26 @@ public final class R {
         public static final int ui_button_btn_compound=0x7f060006;
         public static final int ui_button_btn_image=0x7f060005;
         public static final int ui_button_btn_simple=0x7f060004;
+        public static final int ui_label_txt_decimal=0x7f060010;
+        public static final int ui_label_txt_edit=0x7f060008;
+        public static final int ui_label_txt_email=0x7f06000e;
+        public static final int ui_label_txt_multiline=0x7f06000c;
+        public static final int ui_label_txt_password=0x7f06000a;
+        public static final int ui_text_txt_decimal=0x7f060011;
+        public static final int ui_text_txt_edit=0x7f060009;
+        public static final int ui_text_txt_email=0x7f06000f;
+        public static final int ui_text_txt_multiline=0x7f06000d;
+        public static final int ui_text_txt_password=0x7f06000b;
+        public static final int ui_text_txt_simple=0x7f060007;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int activity_ui_button=0x7f030001;
+        public static final int activity_ui_text=0x7f030002;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
-        /**  MainActivity  
+        /**  MainActivity 
          */
         public static final int main_label_ui_button=0x7f040001;
         public static final int main_label_ui_checkbox=0x7f040003;
@@ -37,9 +49,20 @@ public final class R {
         /**  UIButtonActivity 
          */
         public static final int title_activity_uibutton=0x7f040004;
+        /**  UITextActivity 
+         */
+        public static final int title_activity_uitext=0x7f040008;
         public static final int ui_button_desc_btn_image=0x7f040006;
         public static final int ui_button_label_btn_compound=0x7f040007;
         public static final int ui_button_label_btn_simple=0x7f040005;
+        public static final int ui_text_hint_txt_decimal=0x7f040010;
+        public static final int ui_text_hint_txt_email=0x7f04000e;
+        public static final int ui_text_label_txt_decimal=0x7f04000f;
+        public static final int ui_text_label_txt_edit=0x7f04000a;
+        public static final int ui_text_label_txt_email=0x7f04000d;
+        public static final int ui_text_label_txt_multiline=0x7f04000c;
+        public static final int ui_text_label_txt_password=0x7f04000b;
+        public static final int ui_text_txt_simple=0x7f040009;
     }
     public static final class style {
         /** 
