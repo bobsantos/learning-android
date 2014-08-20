@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Learning Android</string>
 
     <!-- MainActivity -->
@@ -23,4 +24,8 @@
     <string name="ui_text_hint_txt_email">anon@email.org</string>
     <string name="ui_text_label_txt_decimal">Price in PHP</string>
     <string name="ui_text_hint_txt_decimal">0.00</string>
+    
+    <!-- UICheckboxActivity -->
+    <string name="title_activity_uicheckbox">UICheckbox</string>
+ 	<string name="ui_checkbox_btn_view">View Checked Items</string>
 </resources>

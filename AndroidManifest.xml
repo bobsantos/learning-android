@@ -30,6 +30,10 @@
             android:name=".UITextActivity"
             android:label="@string/title_activity_uitext" >
         </activity>
+        <activity
+            android:name=".UICheckboxActivity"
+            android:label="@string/title_activity_uicheckbox" >
+        </activity>
     </application>
 
 </manifest>

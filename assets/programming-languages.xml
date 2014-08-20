@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<languages>
+    <language>
+        <id>1</id>
+        <name>Java</name>
+        <description>Java is a computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.</description>
+    </language>
+    <language>
+        <id>2</id>
+        <name>C#</name>
+        <description>C# is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.</description>
+    </language>
+    <language>
+        <id>3</id>
+        <name>JavaScript</name>
+        <description>JavaScript is a dynamic computer programming language</description>
+    </language>
+    <language>
+        <id>4</id>
+        <name>Python</name>
+        <description>Python is a widely used general-purpose, high-level programming language.</description>
+    </language>
+    <language>
+        <id>5</id>
+        <name>Ruby</name>
+        <description>Ruby is a dynamic, reflective, object-oriented, general-purpose programming language.</description>
+    </language>
+    <language>
+        <id>6</id>
+        <name>Haskell</name>
+        <description>Haskell is a standardized, general-purpose purely functional programming language, with non-strict semantics and strong static typing.</description>
+    </language>
+    <language>
+        <id>7</id>
+        <name>Haskell</name>
+        <description>Scala is an object-functional programming and scripting language for general software applications.</description>
+    </language>
+</languages>

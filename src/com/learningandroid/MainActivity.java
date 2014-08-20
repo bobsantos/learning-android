@@ -15,6 +15,7 @@ public class MainActivity extends Activity {
         
         Button btnUIButton = (Button) findViewById(R.id.main_btn_ui_button);
         Button btnUIText = (Button) findViewById(R.id.main_btn_ui_text);
+        Button btnUICheckbox = (Button) findViewById(R.id.main_btn_ui_checkbox);
         
         btnUIButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
@@ -25,6 +26,12 @@ public class MainActivity extends Activity {
         btnUIText.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
 				startActivity(new Intent(getApplicationContext(), UITextActivity.class));
+			}
+		});
+        
+        btnUICheckbox.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View arg0) {
+				startActivity(new Intent(getApplicationContext(), UICheckboxActivity.class));
 			}
 		});
     }
