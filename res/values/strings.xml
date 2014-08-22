@@ -9,6 +9,7 @@
     <string name="main_label_ui_checkbox">UI Check</string>
     <string name="main_label_ui_radio_button">UI Radio</string>
     <string name="main_label_ui_toggle_button">UI Toggle</string>
+    <string name="main_label_ui_spinner">Spinner</string>
 
     <!-- UIButtonActivity -->
     <string name="title_activity_uibutton">UI Button</string>
@@ -36,11 +37,22 @@
     <string name="ui_radio_button_radio_button_tobe">To Be</string>
     <string name="ui_radio_button_radio_button_nottobe">Not To Be</string>
     <string name="ui_radio_button_btn_view">That Is The Question</string>
-    
+
     <!-- UIToggleButtonActivity -->
     <string name="title_activity_uitoggle_button">Toggle Button Sample</string>
-	<string name="ui_toggle_toggle_on">Yes</string>
-	<string name="ui_toggle_toggle_off">No</string>
-	<string name="ui_toggle_switch_on">Wax On</string>
-	<string name="ui_toggle_switch_off">Wax Off</string>
+    <string name="ui_toggle_toggle_on">Yes</string>
+    <string name="ui_toggle_toggle_off">No</string>
+    <string name="ui_toggle_switch_on">Wax On</string>
+    <string name="ui_toggle_switch_off">Wax Off</string>
+    
+    <!-- UISpinnerActivity -->
+    <string name="title_activity_uispinner">Spinner Sample</string>
+    <string name="ui_spinner_label">Favorite Language</string>
+	<string-array name="ui_spinner_data">
+	    <item>Java</item>
+	    <item>Python</item>
+	    <item>Scala</item>
+	    <item>C#</item>
+	</string-array>
+	<string name="ui_spinner_prompt">Choose Your Favorite Language</string>
 </resources>

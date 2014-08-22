@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+	
+    <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ui_spinner_label" />
+    	
+   	<Spinner android:id="@+id/ui_spinner_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/ui_spinner_data"
+        android:prompt="@string/ui_spinner_prompt" />
+    
+</LinearLayout>

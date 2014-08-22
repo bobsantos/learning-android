@@ -42,6 +42,10 @@
             android:name=".UIToggleButtonActivity"
             android:label="@string/title_activity_uitoggle_button" >
         </activity>
+        <activity
+            android:name=".UISpinnerActivity"
+            android:label="@string/title_activity_uispinner" >
+        </activity>
     </application>
 
 </manifest>
