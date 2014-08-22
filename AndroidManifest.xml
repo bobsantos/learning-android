@@ -38,6 +38,10 @@
             android:name=".UIRadioButtonActivity"
             android:label="@string/title_activity_uiradio_button" >
         </activity>
+        <activity
+            android:name=".UIToggleButtonActivity"
+            android:label="@string/title_activity_uitoggle_button" >
+        </activity>
     </application>
 
 </manifest>

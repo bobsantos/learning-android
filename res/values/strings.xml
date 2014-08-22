@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Learning Android</string>
 
     <!-- MainActivity -->
     <string name="main_label_ui_button">UI Button</string>
     <string name="main_label_ui_text">UI Text</string>
-    <string name="main_label_ui_checkbox">UI Checkbox</string>
-    <string name="main_label_ui_radio_button">UI Radio Button</string>
+    <string name="main_label_ui_checkbox">UI Check</string>
+    <string name="main_label_ui_radio_button">UI Radio</string>
+    <string name="main_label_ui_toggle_button">UI Toggle</string>
 
     <!-- UIButtonActivity -->
     <string name="title_activity_uibutton">UI Button</string>
@@ -28,10 +30,17 @@
     <!-- UICheckboxActivity -->
     <string name="title_activity_uicheckbox">UICheckbox</string>
     <string name="ui_checkbox_btn_view">View Checked Items</string>
-    
+
     <!-- UIRadioButtonActivity -->
     <string name="title_activity_uiradio_button">Radio Button Sample</string>
     <string name="ui_radio_button_radio_button_tobe">To Be</string>
-	<string name="ui_radio_button_radio_button_nottobe">Not To Be</string>
-	<string name="ui_radio_button_btn_view">That Is The Question</string>
+    <string name="ui_radio_button_radio_button_nottobe">Not To Be</string>
+    <string name="ui_radio_button_btn_view">That Is The Question</string>
+    
+    <!-- UIToggleButtonActivity -->
+    <string name="title_activity_uitoggle_button">Toggle Button Sample</string>
+	<string name="ui_toggle_toggle_on">Yes</string>
+	<string name="ui_toggle_toggle_off">No</string>
+	<string name="ui_toggle_switch_on">Wax On</string>
+	<string name="ui_toggle_switch_off">Wax Off</string>
 </resources>

@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal" >
+	
+    <ToggleButton android:id="@+id/ui_toggle_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/ui_toggle_toggle_on"
+        android:textOff="@string/ui_toggle_toggle_off" />
+    
+    <Switch android:id="@+id/ui_toggle_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/ui_toggle_switch_on"
+        android:textOff="@string/ui_toggle_switch_off" />
+    
+</LinearLayout>

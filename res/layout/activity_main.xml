@@ -1,8 +1,8 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/layout_main"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:columnCount="3"
     tools:context="${relativePackage}.${activityClass}" >
 
@@ -25,5 +25,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
          android:text="@string/main_label_ui_radio_button" />
+    
+    <Button android:id="@+id/main_btn_ui_toggle_button" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+         android:text="@string/main_label_ui_toggle_button" />
 
 </GridLayout>
