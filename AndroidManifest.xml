@@ -46,6 +46,10 @@
             android:name=".UISpinnerActivity"
             android:label="@string/title_activity_uispinner" >
         </activity>
+        <activity
+            android:name=".UIPickerActivity"
+            android:label="@string/title_activity_uipicker" >
+        </activity>
     </application>
 
 </manifest>

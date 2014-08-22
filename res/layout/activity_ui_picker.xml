@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    	
+        <TextView
+            android:id="@+id/ui_picker_txt_date_picker"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:gravity="center" />
+        
+        <ImageButton android:id="@+id/ui_picker_btn_date_picker"
+            android:layout_height="wrap_content"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:src="@drawable/calendar"
+            android:contentDescription="@string/ui_picker_date_picker_calendar_desc" />
+        
+    </LinearLayout>
+    
+    
+</LinearLayout>

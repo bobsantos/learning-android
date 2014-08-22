@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">Learning Android</string>
 
     <!-- MainActivity -->
@@ -10,6 +9,7 @@
     <string name="main_label_ui_radio_button">UI Radio</string>
     <string name="main_label_ui_toggle_button">UI Toggle</string>
     <string name="main_label_ui_spinner">UI Spinner</string>
+    <string name="main_label_ui_picker">UI Picker</string>
 
     <!-- UIButtonActivity -->
     <string name="title_activity_uibutton">UI Button</string>
@@ -44,15 +44,21 @@
     <string name="ui_toggle_toggle_off">No</string>
     <string name="ui_toggle_switch_on">Wax On</string>
     <string name="ui_toggle_switch_off">Wax Off</string>
-    
+
     <!-- UISpinnerActivity -->
     <string name="title_activity_uispinner">Spinner Sample</string>
     <string name="ui_spinner_label">Favorite Language</string>
-	<string-array name="ui_spinner_data">
-	    <item>Java</item>
-	    <item>Python</item>
-	    <item>Scala</item>
-	    <item>C#</item>
-	</string-array>
-	<string name="ui_spinner_prompt">Choose Your Favorite Language</string>
+
+    <string-array name="ui_spinner_data">
+        <item>Java</item>
+        <item>Python</item>
+        <item>Scala</item>
+        <item>C#</item>
+    </string-array>
+    <string name="ui_spinner_prompt">Choose Your Favorite Language</string>
+    
+    <!-- UIPickerActivity -->
+    <string name="title_activity_uipicker">Picker Sample</string>
+    <string name="ui_picker_date_picker">Set Date</string>
+    <string name="ui_picker_date_picker_calendar_desc">Calendar</string>
 </resources>

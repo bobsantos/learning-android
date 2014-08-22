@@ -18,7 +18,8 @@ public class MainActivity extends Activity {
         Button btnUICheckbox = (Button) findViewById(R.id.main_btn_ui_checkbox);
         Button btnUIRadioButton = (Button) findViewById(R.id.main_btn_ui_radio_button);
         Button btnUIToggleButton = (Button) findViewById(R.id.main_btn_ui_toggle_button);
-        Button btnSpinner = (Button) findViewById(R.id.main_btn_ui_spinner);
+        Button btnUISpinner = (Button) findViewById(R.id.main_btn_ui_spinner);
+        Button btnUIPicker = (Button) findViewById(R.id.main_btn_ui_picker);
         
         btnUIButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
@@ -50,9 +51,15 @@ public class MainActivity extends Activity {
 			}
 		});
         
-        btnSpinner.setOnClickListener(new View.OnClickListener() {
+        btnUISpinner.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
 				startActivity(new Intent(getApplicationContext(), UISpinnerActivity.class));
+			}
+		});
+        
+        btnUIPicker.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View arg0) {
+				startActivity(new Intent(getApplicationContext(), UIPickerActivity.class));
 			}
 		});
     }
