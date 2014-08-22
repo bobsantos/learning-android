@@ -9,7 +9,7 @@
     <string name="main_label_ui_checkbox">UI Check</string>
     <string name="main_label_ui_radio_button">UI Radio</string>
     <string name="main_label_ui_toggle_button">UI Toggle</string>
-    <string name="main_label_ui_spinner">Spinner</string>
+    <string name="main_label_ui_spinner">UI Spinner</string>
 
     <!-- UIButtonActivity -->
     <string name="title_activity_uibutton">UI Button</string>
