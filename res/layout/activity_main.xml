@@ -40,5 +40,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
          android:text="@string/main_label_ui_picker" />
-
+    
+    <Button android:id="@+id/main_btn_user_notification_custom_toast" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+         android:text="@string/main_label_user_notification_custom_toast" />
 </GridLayout>

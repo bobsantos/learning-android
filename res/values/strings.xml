@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Learning Android</string>
 
     <!-- MainActivity -->
@@ -10,6 +11,7 @@
     <string name="main_label_ui_toggle_button">UI Toggle</string>
     <string name="main_label_ui_spinner">UI Spinner</string>
     <string name="main_label_ui_picker">UI Picker</string>
+    <string name="main_label_user_notification_custom_toast">Custom Toast</string>
 
     <!-- UIButtonActivity -->
     <string name="title_activity_uibutton">UI Button</string>
@@ -48,7 +50,6 @@
     <!-- UISpinnerActivity -->
     <string name="title_activity_uispinner">Spinner Sample</string>
     <string name="ui_spinner_label">Favorite Language</string>
-
     <string-array name="ui_spinner_data">
         <item>Java</item>
         <item>Python</item>
@@ -56,9 +57,15 @@
         <item>C#</item>
     </string-array>
     <string name="ui_spinner_prompt">Choose Your Favorite Language</string>
-    
+
     <!-- UIPickerActivity -->
     <string name="title_activity_uipicker">Picker Sample</string>
     <string name="ui_picker_date_picker">Set Date</string>
     <string name="ui_picker_date_picker_calendar_desc">Calendar</string>
+	
+    <!-- UserNotificationCustomToastActivity -->
+    <string name="title_activity_user_notification_custom_toast">Custom Toast Sample</string>
+    <string name="user_notification_custom_toast_btn_toast">Show Toast</string>
+    <string name="user_notification_custom_toast_event_added">Event Added</string>
+    <string name="user_notification_custom_toast_event_added_desc">Calendar</string>
 </resources>
