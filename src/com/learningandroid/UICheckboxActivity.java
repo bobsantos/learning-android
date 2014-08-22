@@ -105,7 +105,7 @@ public class UICheckboxActivity extends Activity {
 		private LayoutInflater inflater;
 		
 		public LanguageAdapter(Context context, List<ProgrammingLanguage> languages) {
-			super(context, R.layout.acitvity_ui_checkbox_row, 
+			super(context, R.layout.activity_ui_checkbox_row, 
 					R.id.ui_checkbox_row_text_view, languages);
 			inflater = LayoutInflater.from(context);
 		}
@@ -121,7 +121,7 @@ public class UICheckboxActivity extends Activity {
 			
 			// create the row if converterView is null
 			if(convertView == null){
-				convertView = inflater.inflate(R.layout.acitvity_ui_checkbox_row, null);
+				convertView = inflater.inflate(R.layout.activity_ui_checkbox_row, null);
 				
 				checkBox = (CheckBox) convertView.findViewById(R.id.ui_checkbox_row_checkbox);
 				textView = (TextView) convertView.findViewById(R.id.ui_checkbox_row_text_view);

@@ -20,5 +20,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
          android:text="@string/main_label_ui_checkbox" />
+    
+    <Button android:id="@+id/main_btn_ui_radio_button" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+         android:text="@string/main_label_ui_radio_button" />
 
 </GridLayout>

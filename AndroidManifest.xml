@@ -34,6 +34,10 @@
             android:name=".UICheckboxActivity"
             android:label="@string/title_activity_uicheckbox" >
         </activity>
+        <activity
+            android:name=".UIRadioButtonActivity"
+            android:label="@string/title_activity_uiradio_button" >
+        </activity>
     </application>
 
 </manifest>

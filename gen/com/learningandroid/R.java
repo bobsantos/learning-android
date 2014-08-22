@@ -15,35 +15,41 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int layout_main=0x7f060002;
-        public static final int main_btn_ui_button=0x7f060003;
-        public static final int main_btn_ui_checkbox=0x7f060005;
-        public static final int main_btn_ui_text=0x7f060004;
-        public static final int ui_button_btn_compound=0x7f060008;
-        public static final int ui_button_btn_image=0x7f060007;
-        public static final int ui_button_btn_simple=0x7f060006;
-        public static final int ui_checkbox_btn_view=0x7f06000a;
-        public static final int ui_checkbox_list_view=0x7f060009;
-        public static final int ui_checkbox_row_checkbox=0x7f060000;
-        public static final int ui_checkbox_row_text_view=0x7f060001;
-        public static final int ui_label_txt_decimal=0x7f060014;
-        public static final int ui_label_txt_edit=0x7f06000c;
-        public static final int ui_label_txt_email=0x7f060012;
-        public static final int ui_label_txt_multiline=0x7f060010;
-        public static final int ui_label_txt_password=0x7f06000e;
-        public static final int ui_text_txt_decimal=0x7f060015;
-        public static final int ui_text_txt_edit=0x7f06000d;
-        public static final int ui_text_txt_email=0x7f060013;
-        public static final int ui_text_txt_multiline=0x7f060011;
-        public static final int ui_text_txt_password=0x7f06000f;
-        public static final int ui_text_txt_simple=0x7f06000b;
+        public static final int layout_main=0x7f060000;
+        public static final int main_btn_ui_button=0x7f060001;
+        public static final int main_btn_ui_checkbox=0x7f060003;
+        public static final int main_btn_ui_radio_button=0x7f060004;
+        public static final int main_btn_ui_text=0x7f060002;
+        public static final int ui_button_btn_compound=0x7f060007;
+        public static final int ui_button_btn_image=0x7f060006;
+        public static final int ui_button_btn_simple=0x7f060005;
+        public static final int ui_checkbox_btn_view=0x7f060009;
+        public static final int ui_checkbox_list_view=0x7f060008;
+        public static final int ui_checkbox_row_checkbox=0x7f06000a;
+        public static final int ui_checkbox_row_text_view=0x7f06000b;
+        public static final int ui_label_txt_decimal=0x7f060019;
+        public static final int ui_label_txt_edit=0x7f060011;
+        public static final int ui_label_txt_email=0x7f060017;
+        public static final int ui_label_txt_multiline=0x7f060015;
+        public static final int ui_label_txt_password=0x7f060013;
+        public static final int ui_radio_button_btn_view=0x7f06000f;
+        public static final int ui_radio_button_radio_button_nottobe=0x7f06000e;
+        public static final int ui_radio_button_radio_button_tobe=0x7f06000d;
+        public static final int ui_radio_button_radio_group=0x7f06000c;
+        public static final int ui_text_txt_decimal=0x7f06001a;
+        public static final int ui_text_txt_edit=0x7f060012;
+        public static final int ui_text_txt_email=0x7f060018;
+        public static final int ui_text_txt_multiline=0x7f060016;
+        public static final int ui_text_txt_password=0x7f060014;
+        public static final int ui_text_txt_simple=0x7f060010;
     }
     public static final class layout {
-        public static final int acitvity_ui_checkbox_row=0x7f030000;
-        public static final int activity_main=0x7f030001;
-        public static final int activity_ui_button=0x7f030002;
-        public static final int activity_ui_checkbox=0x7f030003;
-        public static final int activity_ui_text=0x7f030004;
+        public static final int activity_main=0x7f030000;
+        public static final int activity_ui_button=0x7f030001;
+        public static final int activity_ui_checkbox=0x7f030002;
+        public static final int activity_ui_checkbox_row=0x7f030003;
+        public static final int activity_ui_radio_button=0x7f030004;
+        public static final int activity_ui_text=0x7f030005;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
@@ -51,28 +57,35 @@ public final class R {
          */
         public static final int main_label_ui_button=0x7f040001;
         public static final int main_label_ui_checkbox=0x7f040003;
+        public static final int main_label_ui_radio_button=0x7f040004;
         public static final int main_label_ui_text=0x7f040002;
         /**  UIButtonActivity 
          */
-        public static final int title_activity_uibutton=0x7f040004;
+        public static final int title_activity_uibutton=0x7f040005;
         /**  UICheckboxActivity 
          */
-        public static final int title_activity_uicheckbox=0x7f040011;
+        public static final int title_activity_uicheckbox=0x7f040012;
+        /**  UIRadioButtonActivity 
+         */
+        public static final int title_activity_uiradio_button=0x7f040014;
         /**  UITextActivity 
          */
-        public static final int title_activity_uitext=0x7f040008;
-        public static final int ui_button_desc_btn_image=0x7f040006;
-        public static final int ui_button_label_btn_compound=0x7f040007;
-        public static final int ui_button_label_btn_simple=0x7f040005;
-        public static final int ui_checkbox_btn_view=0x7f040012;
-        public static final int ui_text_hint_txt_decimal=0x7f040010;
-        public static final int ui_text_hint_txt_email=0x7f04000e;
-        public static final int ui_text_label_txt_decimal=0x7f04000f;
-        public static final int ui_text_label_txt_edit=0x7f04000a;
-        public static final int ui_text_label_txt_email=0x7f04000d;
-        public static final int ui_text_label_txt_multiline=0x7f04000c;
-        public static final int ui_text_label_txt_password=0x7f04000b;
-        public static final int ui_text_txt_simple=0x7f040009;
+        public static final int title_activity_uitext=0x7f040009;
+        public static final int ui_button_desc_btn_image=0x7f040007;
+        public static final int ui_button_label_btn_compound=0x7f040008;
+        public static final int ui_button_label_btn_simple=0x7f040006;
+        public static final int ui_checkbox_btn_view=0x7f040013;
+        public static final int ui_radio_button_btn_view=0x7f040017;
+        public static final int ui_radio_button_radio_button_nottobe=0x7f040016;
+        public static final int ui_radio_button_radio_button_tobe=0x7f040015;
+        public static final int ui_text_hint_txt_decimal=0x7f040011;
+        public static final int ui_text_hint_txt_email=0x7f04000f;
+        public static final int ui_text_label_txt_decimal=0x7f040010;
+        public static final int ui_text_label_txt_edit=0x7f04000b;
+        public static final int ui_text_label_txt_email=0x7f04000e;
+        public static final int ui_text_label_txt_multiline=0x7f04000d;
+        public static final int ui_text_label_txt_password=0x7f04000c;
+        public static final int ui_text_txt_simple=0x7f04000a;
     }
     public static final class style {
         /** 

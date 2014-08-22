@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">Learning Android</string>
 
     <!-- MainActivity -->
     <string name="main_label_ui_button">UI Button</string>
     <string name="main_label_ui_text">UI Text</string>
     <string name="main_label_ui_checkbox">UI Checkbox</string>
+    <string name="main_label_ui_radio_button">UI Radio Button</string>
 
     <!-- UIButtonActivity -->
     <string name="title_activity_uibutton">UI Button</string>
@@ -24,8 +24,14 @@
     <string name="ui_text_hint_txt_email">anon@email.org</string>
     <string name="ui_text_label_txt_decimal">Price in PHP</string>
     <string name="ui_text_hint_txt_decimal">0.00</string>
-    
+
     <!-- UICheckboxActivity -->
     <string name="title_activity_uicheckbox">UICheckbox</string>
- 	<string name="ui_checkbox_btn_view">View Checked Items</string>
+    <string name="ui_checkbox_btn_view">View Checked Items</string>
+    
+    <!-- UIRadioButtonActivity -->
+    <string name="title_activity_uiradio_button">Radio Button Sample</string>
+    <string name="ui_radio_button_radio_button_tobe">To Be</string>
+	<string name="ui_radio_button_radio_button_nottobe">Not To Be</string>
+	<string name="ui_radio_button_btn_view">That Is The Question</string>
 </resources>
