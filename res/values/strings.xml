@@ -11,7 +11,9 @@
     <string name="main_label_ui_toggle_button">UI Toggle</string>
     <string name="main_label_ui_spinner">UI Spinner</string>
     <string name="main_label_ui_picker">UI Picker</string>
-    <string name="main_label_user_notification_custom_toast">Custom Toast</string>
+    <string name="main_label_user_notification_custom_toast">Toast</string>
+    <string name="main_label_user_notification_custom_notification">Notification</string>
+    <string name="main_label_btn_bc_single_static">Static Broadcast</string>
 
     <!-- UIButtonActivity -->
     <string name="title_activity_uibutton">UI Button</string>
@@ -50,22 +52,35 @@
     <!-- UISpinnerActivity -->
     <string name="title_activity_uispinner">Spinner Sample</string>
     <string name="ui_spinner_label">Favorite Language</string>
+
     <string-array name="ui_spinner_data">
         <item>Java</item>
         <item>Python</item>
         <item>Scala</item>
         <item>C#</item>
     </string-array>
+
     <string name="ui_spinner_prompt">Choose Your Favorite Language</string>
 
     <!-- UIPickerActivity -->
     <string name="title_activity_uipicker">Picker Sample</string>
     <string name="ui_picker_date_picker">Set Date</string>
     <string name="ui_picker_date_picker_calendar_desc">Calendar</string>
-	
+
     <!-- UserNotificationCustomToastActivity -->
     <string name="title_activity_user_notification_custom_toast">Custom Toast Sample</string>
     <string name="user_notification_custom_toast_btn_toast">Show Toast</string>
     <string name="user_notification_custom_toast_event_added">Event Added</string>
     <string name="user_notification_custom_toast_event_added_desc">Calendar</string>
+
+    <!-- UserNotificationCustomNotificationActivity -->
+    <string name="title_activity_user_notification_custom_notification">Custom Notification Sample</string>
+    <string name="un_custom_notification_btn_notify">Notify</string>
+    <string name="title_activity_uncustom_notification_pending">Pending Intent Sample</string>
+    <string name="hello_world">Hello from Pending</string>
+    
+    <!-- BroadcastReceiverSingleStaticActivity -->
+    <string name="title_activity_broadcast_receiver_single_static">Single Static Broadcast Receiver</string>
+    <string name="bc_single_static_btn_broadcast">Broadcast</string>
+
 </resources>

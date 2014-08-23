@@ -21,6 +21,10 @@ public class MainActivity extends Activity {
         Button btnUISpinner = (Button) findViewById(R.id.main_btn_ui_spinner);
         Button btnUIPicker = (Button) findViewById(R.id.main_btn_ui_picker);
         Button btnUNCustomToast = (Button) findViewById(R.id.main_btn_user_notification_custom_toast);
+        Button btnUNNotification = (Button) findViewById(
+        		R.id.main_btn_user_notification_custom_notification);
+        Button btnBCSingleStatic = (Button) findViewById(
+        		R.id.main_btn_bc_single_static);
         
         btnUIButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
@@ -67,6 +71,18 @@ public class MainActivity extends Activity {
         btnUNCustomToast.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
 				startActivity(new Intent(getApplicationContext(), UserNotificationCustomToastActivity.class));
+			}
+		});
+        
+        btnUNNotification.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View arg0) {
+				startActivity(new Intent(getApplicationContext(), UserNotificationCustomNotificationActivity.class));
+			}
+		});
+        
+        btnBCSingleStatic.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View arg0) {
+				startActivity(new Intent(getApplicationContext(), BroadcastReceiverSingleStaticActivity.class));
 			}
 		});
     }
