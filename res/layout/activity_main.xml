@@ -55,4 +55,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
          android:text="@string/main_label_btn_bc_single_static" />
+    
+    <Button android:id="@+id/main_btn_socket" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+         android:text="@string/main_label_btn_socket" />
 </GridLayout>
