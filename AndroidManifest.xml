@@ -7,6 +7,7 @@
     <uses-sdk
         android:minSdkVersion="19"
         android:targetSdkVersion="19" />
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -78,6 +79,10 @@
         <activity
             android:name=".SocketHttpGetActivity"
             android:label="@string/title_activity_socket_http_get" >
+        </activity>
+        <activity
+            android:name=".HttpURLConnectionActivity"
+            android:label="@string/title_activity_http_urlconnection" >
         </activity>
     </application>
 
