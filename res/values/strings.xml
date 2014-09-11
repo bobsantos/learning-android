@@ -16,6 +16,7 @@
     <string name="main_label_btn_bc_single_static">Static Broadcast</string>
     <string name="main_label_btn_socket">Socket</string>
     <string name="main_label_btn_httpurlconnection">HttpURLConnection</string>
+    <string name="main_label_btn_androidhttpclient">AndroidHttpClient</string>
 
     <!-- UIButtonActivity -->
     <string name="title_activity_uibutton">UI Button</string>
@@ -88,8 +89,13 @@
     <!-- SocketHttpGetActivity -->
     <string name="title_activity_socket_http_get">Socket HttpGet Activity</string>
     <string name="socket_httpget_btn_send">Send</string>
-    
+
     <!-- HttpURLConnectionActivity -->
     <string name="title_activity_http_urlconnection">HttpURLConnection Activity</string>
-	<string name="httpurlconn_httpget_btn_send">Send</string>
+    <string name="httpurlconn_httpget_btn_send">Send</string>
+    
+    <!-- AndroidHttpClientActivity -->
+    <string name="title_activity_android_http_client">AndroidHttpClient Activity</string>
+    <string name="androidhttpclient_httpget_btn_send">Send</string>
+
 </resources>

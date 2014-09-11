@@ -84,6 +84,10 @@
             android:name=".HttpURLConnectionActivity"
             android:label="@string/title_activity_http_urlconnection" >
         </activity>
+        <activity
+            android:name=".AndroidHttpClientActivity"
+            android:label="@string/title_activity_android_http_client" >
+        </activity>
     </application>
 
 </manifest>

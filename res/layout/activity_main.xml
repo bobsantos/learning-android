@@ -65,4 +65,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
          android:text="@string/main_label_btn_httpurlconnection" />
+    
+    <Button android:id="@+id/main_btn_androidhttpclient" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+         android:text="@string/main_label_btn_androidhttpclient" />
 </GridLayout>

@@ -29,6 +29,8 @@ public class MainActivity extends Activity {
         		R.id.main_btn_socket);
         Button btnHttpUrlConnection = (Button) findViewById(
         		R.id.main_btn_httpurlconnection);
+        Button btnAndroidHttpClient = (Button) findViewById(
+        		R.id.main_btn_androidhttpclient);
         
         btnUIButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
@@ -99,6 +101,12 @@ public class MainActivity extends Activity {
         btnHttpUrlConnection.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
 				startActivity(new Intent(getApplicationContext(), HttpURLConnectionActivity.class));
+			}
+		});
+        
+        btnAndroidHttpClient.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View arg0) {
+				startActivity(new Intent(getApplicationContext(), AndroidHttpClientActivity.class));
 			}
 		});
     }
