@@ -9,8 +9,9 @@
         android:layout_height="wrap_content"
         android:text="@string/androidhttpclient_httpget_btn_send" />
     
-    <TextView android:id="@+id/androidhttpclient_httpget_text"
+    <ListView android:id="@+id/androidhttpclient_httpget_list"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content">
+    </ListView>
 
 </LinearLayout>

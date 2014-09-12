@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/marvel_character_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="horizontal"
+    tools:context=".AndroidHttpClientActivity" >
+
+    <ImageView
+        android:id="@+id/marvel_character_image"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/marvel_character_txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/marvel_character_txt_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

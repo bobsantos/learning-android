@@ -30,6 +30,10 @@ public class AndroidHttpClientGet extends AsyncTask<String, Void, String> {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
+		} finally {
+			if(client != null){
+				client.close();
+			}
 		}
 		
 		return "";

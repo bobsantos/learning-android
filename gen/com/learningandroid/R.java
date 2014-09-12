@@ -26,12 +26,13 @@ public final class R {
     }
     public static final class drawable {
         public static final int calendar=0x7f020000;
-        public static final int ic_action_search=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
+        public static final int deadpool=0x7f020001;
+        public static final int ic_action_search=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
     }
     public static final class id {
         public static final int androidhttpclient_httpget_btn_send=0x7f080000;
-        public static final int androidhttpclient_httpget_text=0x7f080001;
+        public static final int androidhttpclient_httpget_list=0x7f080001;
         public static final int bc_single_static_btn_broadcast=0x7f080002;
         public static final int httpurlconn_httpget_btn_send=0x7f080003;
         public static final int httpurlconn_httpget_text=0x7f080004;
@@ -49,6 +50,10 @@ public final class R {
         public static final int main_btn_ui_toggle_button=0x7f08000a;
         public static final int main_btn_user_notification_custom_notification=0x7f08000e;
         public static final int main_btn_user_notification_custom_toast=0x7f08000d;
+        public static final int marvel_character_image=0x7f080033;
+        public static final int marvel_character_layout=0x7f080032;
+        public static final int marvel_character_txt_description=0x7f080035;
+        public static final int marvel_character_txt_name=0x7f080034;
         public static final int socket_httpget_btn_send=0x7f080013;
         public static final int socket_httpget_text=0x7f080014;
         public static final int ui_button_btn_compound=0x7f080017;
@@ -80,7 +85,7 @@ public final class R {
         public static final int ui_toggle_toggle=0x7f08002e;
         public static final int un_custom_notification_btn_notify=0x7f080030;
         public static final int user_notification_custom_toast_btn_toast=0x7f080031;
-        public static final int user_notification_custom_toast_layout=0x7f080032;
+        public static final int user_notification_custom_toast_layout=0x7f080036;
     }
     public static final class layout {
         public static final int activity_androidhttpclient=0x7f030000;
@@ -99,7 +104,8 @@ public final class R {
         public static final int activity_uncustom_notification_pending=0x7f03000d;
         public static final int activity_user_notification_custom_notification=0x7f03000e;
         public static final int activity_user_notification_custom_toast=0x7f03000f;
-        public static final int user_notificattion_custom_toast_image_text=0x7f030010;
+        public static final int layout_marvel_character=0x7f030010;
+        public static final int user_notificattion_custom_toast_image_text=0x7f030011;
     }
     public static final class string {
         public static final int androidhttpclient_httpget_btn_send=0x7f05003b;
