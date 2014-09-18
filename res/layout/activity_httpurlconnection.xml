@@ -11,6 +11,12 @@
     
     <TextView android:id="@+id/httpurlconn_httpget_text"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black" />
+    
+    <Button android:id="@+id/httpurlconn_httpget_btn_preferences"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/httpurlconn_httpget_btn_preferences" />
 
 </LinearLayout>

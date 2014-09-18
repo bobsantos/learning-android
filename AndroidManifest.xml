@@ -92,6 +92,10 @@
             android:name=".HighestNumberSharedPreferencesActivity"
             android:label="@string/title_activity_highest_number_shared_preferences" >
         </activity>
+        <activity
+            android:name=".RandomQuotesPreferencesActivity"
+            android:label="@string/title_activity_random_quotes_preferences" >
+        </activity>
     </application>
 
 </manifest>

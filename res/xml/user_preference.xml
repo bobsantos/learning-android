@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <ListPreference android:key="random_quotes_textsize_preference"
+        android:title="Text Size"
+        android:entries="@array/random_quotes_textSize"
+        android:entryValues="@array/random_quotes_textSize"
+        android:dialogTitle="Select Text Size" />
+
+</PreferenceScreen>

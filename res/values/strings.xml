@@ -94,14 +94,16 @@
     <!-- HttpURLConnectionActivity -->
     <string name="title_activity_http_urlconnection">HttpURLConnection Activity</string>
     <string name="httpurlconn_httpget_btn_send">Send</string>
+    <string name="httpurlconn_httpget_btn_preferences">Settings</string>
 
     <!-- AndroidHttpClientActivity -->
     <string name="title_activity_android_http_client">AndroidHttpClient Activity</string>
     <string name="androidhttpclient_httpget_btn_send">Send</string>
-    
+
     <!-- HighestNumberSharedPreferencesActivity -->
     <string name="title_activity_highest_number_shared_preferences">Highest Number SharedPreferences Activity</string>
     <string name="highest_number_btn_generate">Generate</string>
     <string name="highest_number_btn_reset">Reset</string>
+    <string name="title_activity_random_quotes_preferences">Random Quotes Preferences Activity</string>
 
 </resources>
