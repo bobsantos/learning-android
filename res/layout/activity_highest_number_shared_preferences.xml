@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <TextView android:id="@+id/highest_number_txt_highest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView android:id="@+id/highest_number_txt_number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@android:style/TextAppearance.Large" />
+    
+    <Button android:id="@+id/highest_number_btn_generate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/highest_number_btn_generate" />
+    
+    <Button android:id="@+id/highest_number_btn_reset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/highest_number_btn_reset" />
+    
+</LinearLayout>

@@ -31,6 +31,8 @@ public class MainActivity extends Activity {
         		R.id.main_btn_httpurlconnection);
         Button btnAndroidHttpClient = (Button) findViewById(
         		R.id.main_btn_androidhttpclient);
+        Button btnHighestNumber = (Button) findViewById(
+        		R.id.main_btn_highest_number);
         
         btnUIButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
@@ -107,6 +109,12 @@ public class MainActivity extends Activity {
         btnAndroidHttpClient.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
 				startActivity(new Intent(getApplicationContext(), AndroidHttpClientActivity.class));
+			}
+		});
+        
+        btnHighestNumber.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View arg0) {
+				startActivity(new Intent(getApplicationContext(), HighestNumberSharedPreferencesActivity.class));
 			}
 		});
     }

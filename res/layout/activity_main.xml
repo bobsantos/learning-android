@@ -70,4 +70,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
          android:text="@string/main_label_btn_androidhttpclient" />
+    
+    <Button android:id="@+id/main_btn_highest_number" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+         android:text="@string/main_label_btn_highest_number" />
 </GridLayout>
