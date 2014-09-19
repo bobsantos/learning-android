@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 
 import android.content.Context;
 import android.os.AsyncTask;
-import android.util.Log;
 
 import com.learningandroid.callback.AsyncTaskPostExecute;
 
@@ -21,19 +20,16 @@ public class FileLoader extends AsyncTask<String, Void, String> {
 	}
 
 	protected String doInBackground(String... params) {
-		Log.i("BACKGROUND", "FileLoader doInBackground");
 		String path = params[0];
 		String content = "";
 		BufferedReader reader = null;
 		StringBuffer sb = new StringBuffer();
 		
 		if(ctx.getFileStreamPath(path).exists()){
-			Log.i("READER", "File available");
 			try {
 				reader = new BufferedReader(new InputStreamReader(ctx.openFileInput(path)));
 				
 				while((content = reader.readLine()) != null){
-					Log.i("LINE", content);
 					sb.append(content);
 				}
 				
@@ -58,5 +54,4 @@ public class FileLoader extends AsyncTask<String, Void, String> {
 	protected void onPostExecute(String result) {
 		callback.onPostExecute(result);
 	}
-
 }
