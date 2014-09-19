@@ -96,6 +96,10 @@
             android:name=".RandomQuotesPreferencesActivity"
             android:label="@string/title_activity_random_quotes_preferences" >
         </activity>
+        <activity
+            android:name=".InternalFileActivity"
+            android:label="@string/title_activity_internal_file" >
+        </activity>
     </application>
 
 </manifest>

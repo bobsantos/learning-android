@@ -21,18 +21,13 @@ public class MainActivity extends Activity {
         Button btnUISpinner = (Button) findViewById(R.id.main_btn_ui_spinner);
         Button btnUIPicker = (Button) findViewById(R.id.main_btn_ui_picker);
         Button btnUNCustomToast = (Button) findViewById(R.id.main_btn_user_notification_custom_toast);
-        Button btnUNNotification = (Button) findViewById(
-        		R.id.main_btn_user_notification_custom_notification);
-        Button btnBCSingleStatic = (Button) findViewById(
-        		R.id.main_btn_bc_single_static);
-        Button btnSocket = (Button) findViewById(
-        		R.id.main_btn_socket);
-        Button btnHttpUrlConnection = (Button) findViewById(
-        		R.id.main_btn_httpurlconnection);
-        Button btnAndroidHttpClient = (Button) findViewById(
-        		R.id.main_btn_androidhttpclient);
-        Button btnHighestNumber = (Button) findViewById(
-        		R.id.main_btn_highest_number);
+        Button btnUNNotification = (Button) findViewById(R.id.main_btn_user_notification_custom_notification);
+        Button btnBCSingleStatic = (Button) findViewById(R.id.main_btn_bc_single_static);
+        Button btnSocket = (Button) findViewById(R.id.main_btn_socket);
+        Button btnHttpUrlConnection = (Button) findViewById(R.id.main_btn_httpurlconnection);
+        Button btnAndroidHttpClient = (Button) findViewById(R.id.main_btn_androidhttpclient);
+        Button btnHighestNumber = (Button) findViewById(R.id.main_btn_highest_number);
+        Button btnInternalFile = (Button) findViewById(R.id.main_btn_internal_file);
         
         btnUIButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
@@ -115,6 +110,12 @@ public class MainActivity extends Activity {
         btnHighestNumber.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
 				startActivity(new Intent(getApplicationContext(), HighestNumberSharedPreferencesActivity.class));
+			}
+		});
+        
+        btnInternalFile.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View arg0) {
+				startActivity(new Intent(getApplicationContext(), InternalFileActivity.class));
 			}
 		});
     }
