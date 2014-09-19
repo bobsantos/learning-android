@@ -28,6 +28,7 @@ public class MainActivity extends Activity {
         Button btnAndroidHttpClient = (Button) findViewById(R.id.main_btn_androidhttpclient);
         Button btnHighestNumber = (Button) findViewById(R.id.main_btn_highest_number);
         Button btnInternalFile = (Button) findViewById(R.id.main_btn_internal_file);
+        Button btnExternalFile = (Button) findViewById(R.id.main_btn_external_file);
         
         btnUIButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
@@ -116,6 +117,12 @@ public class MainActivity extends Activity {
         btnInternalFile.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
 				startActivity(new Intent(getApplicationContext(), InternalFileActivity.class));
+			}
+		});
+        
+        btnExternalFile.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View arg0) {
+				startActivity(new Intent(getApplicationContext(), ExternalFileActivity.class));
 			}
 		});
     }

@@ -19,6 +19,7 @@
     <string name="main_label_btn_androidhttpclient">AndroidHttpClient</string>
     <string name="main_label_btn_highest_number">Highest Number</string>
     <string name="main_label_btn_internal_file">Internal File</string>
+	<string name="main_label_btn_external_file">External File</string>
 
     <!-- UIButtonActivity -->
     <string name="title_activity_uibutton">UI Button</string>
@@ -106,9 +107,12 @@
     <string name="highest_number_btn_generate">Generate</string>
     <string name="highest_number_btn_reset">Reset</string>
     <string name="title_activity_random_quotes_preferences">Random Quotes Preferences Activity</string>
-    
+
     <!-- InternalFileActivity -->
     <string name="title_activity_internal_file">Internal File Activity</string>
     <string name="internal_file_btn_view">View File</string>
-
+    
+    <!-- ExternalFileActivity -->
+    <string name="title_activity_external_file">External File Activity</string>
+	<string name="external_file_btn_view">View External File</string>
 </resources>

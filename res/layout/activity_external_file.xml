@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button android:id="@+id/external_file_btn_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/external_file_btn_view" />
+    
+    <TextView android:id="@+id/external_file_txt_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+</LinearLayout>
