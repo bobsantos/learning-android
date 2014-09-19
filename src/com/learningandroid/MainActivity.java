@@ -30,6 +30,7 @@ public class MainActivity extends Activity {
         Button btnInternalFile = (Button) findViewById(R.id.main_btn_internal_file);
         Button btnExternalFile = (Button) findViewById(R.id.main_btn_external_file);
         Button btnContacts = (Button) findViewById(R.id.main_btn_contacts);
+        Button btnContactsContentProvider = (Button) findViewById(R.id.main_btn_contacts_contactprovider);
         
         btnUIButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
@@ -130,6 +131,12 @@ public class MainActivity extends Activity {
         btnContacts.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
 				startActivity(new Intent(getApplicationContext(), ContactsActivity.class));
+			}
+		});
+        
+        btnContactsContentProvider.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View arg0) {
+				startActivity(new Intent(getApplicationContext(), ContactsContentProviderActivity.class));
 			}
 		});
     }

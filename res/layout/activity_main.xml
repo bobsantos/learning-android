@@ -90,4 +90,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
         android:text="@string/main_label_btn_contacts" />
+    
+    <Button android:id="@+id/main_btn_contacts_contactprovider" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="@string/main_label_btn_contacts_contactprovider" />
 </GridLayout>

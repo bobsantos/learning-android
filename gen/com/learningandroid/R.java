@@ -24,13 +24,15 @@ public final class R {
          */
         public static final int activity_horizontal_margin=0x7f060000;
         public static final int activity_vertical_margin=0x7f060001;
+        public static final int generic_text_height=0x7f060002;
     }
     public static final class drawable {
         public static final int calendar=0x7f020000;
         public static final int deadpool=0x7f020001;
         public static final int ic_action_new=0x7f020002;
         public static final int ic_action_search=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
+        public static final int ic_action_user=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
     }
     public static final class id {
         public static final int androidhttpclient_httpget_btn_send=0x7f090003;
@@ -39,12 +41,13 @@ public final class R {
         public static final int contacts_add_contact_btn_cancel=0x7f090001;
         public static final int contacts_add_contact_btn_save=0x7f090002;
         public static final int contacts_add_contact_fragment=0x7f090000;
-        public static final int contacts_add_form_txt_name=0x7f090045;
+        public static final int contacts_add_form_txt_name=0x7f090046;
         public static final int contacts_btn_add=0x7f090006;
         public static final int contacts_contact_list_fragment=0x7f090007;
-        public static final int contacts_list_name=0x7f090046;
+        public static final int contacts_list_name=0x7f090047;
         public static final int external_file_btn_view=0x7f090008;
         public static final int external_file_txt_view=0x7f090009;
+        public static final int generic_text=0x7f09004c;
         public static final int highest_number_btn_generate=0x7f09000c;
         public static final int highest_number_btn_reset=0x7f09000d;
         public static final int highest_number_txt_highest=0x7f09000a;
@@ -58,6 +61,7 @@ public final class R {
         public static final int main_btn_androidhttpclient=0x7f090020;
         public static final int main_btn_bc_single_static=0x7f09001d;
         public static final int main_btn_contacts=0x7f090024;
+        public static final int main_btn_contacts_contactprovider=0x7f090025;
         public static final int main_btn_external_file=0x7f090023;
         public static final int main_btn_highest_number=0x7f090021;
         public static final int main_btn_httpurlconnection=0x7f09001f;
@@ -72,43 +76,43 @@ public final class R {
         public static final int main_btn_ui_toggle_button=0x7f090018;
         public static final int main_btn_user_notification_custom_notification=0x7f09001c;
         public static final int main_btn_user_notification_custom_toast=0x7f09001b;
-        public static final int marvel_character_image=0x7f090048;
-        public static final int marvel_character_layout=0x7f090047;
-        public static final int marvel_character_txt_description=0x7f09004a;
-        public static final int marvel_character_txt_name=0x7f090049;
-        public static final int random_quotes_preference=0x7f090025;
-        public static final int socket_httpget_btn_send=0x7f090026;
-        public static final int socket_httpget_text=0x7f090027;
-        public static final int ui_button_btn_compound=0x7f09002a;
-        public static final int ui_button_btn_image=0x7f090029;
-        public static final int ui_button_btn_simple=0x7f090028;
-        public static final int ui_checkbox_btn_view=0x7f09002c;
-        public static final int ui_checkbox_list_view=0x7f09002b;
-        public static final int ui_checkbox_row_checkbox=0x7f09002d;
-        public static final int ui_checkbox_row_text_view=0x7f09002e;
-        public static final int ui_label_txt_decimal=0x7f09003f;
-        public static final int ui_label_txt_edit=0x7f090037;
-        public static final int ui_label_txt_email=0x7f09003d;
-        public static final int ui_label_txt_multiline=0x7f09003b;
-        public static final int ui_label_txt_password=0x7f090039;
-        public static final int ui_picker_btn_date_picker=0x7f090030;
-        public static final int ui_picker_txt_date_picker=0x7f09002f;
-        public static final int ui_radio_button_btn_view=0x7f090034;
-        public static final int ui_radio_button_radio_button_nottobe=0x7f090033;
-        public static final int ui_radio_button_radio_button_tobe=0x7f090032;
-        public static final int ui_radio_button_radio_group=0x7f090031;
-        public static final int ui_spinner_spinner=0x7f090035;
-        public static final int ui_text_txt_decimal=0x7f090040;
-        public static final int ui_text_txt_edit=0x7f090038;
-        public static final int ui_text_txt_email=0x7f09003e;
-        public static final int ui_text_txt_multiline=0x7f09003c;
-        public static final int ui_text_txt_password=0x7f09003a;
-        public static final int ui_text_txt_simple=0x7f090036;
-        public static final int ui_toggle_switch=0x7f090042;
-        public static final int ui_toggle_toggle=0x7f090041;
-        public static final int un_custom_notification_btn_notify=0x7f090043;
-        public static final int user_notification_custom_toast_btn_toast=0x7f090044;
-        public static final int user_notification_custom_toast_layout=0x7f09004b;
+        public static final int marvel_character_image=0x7f090049;
+        public static final int marvel_character_layout=0x7f090048;
+        public static final int marvel_character_txt_description=0x7f09004b;
+        public static final int marvel_character_txt_name=0x7f09004a;
+        public static final int random_quotes_preference=0x7f090026;
+        public static final int socket_httpget_btn_send=0x7f090027;
+        public static final int socket_httpget_text=0x7f090028;
+        public static final int ui_button_btn_compound=0x7f09002b;
+        public static final int ui_button_btn_image=0x7f09002a;
+        public static final int ui_button_btn_simple=0x7f090029;
+        public static final int ui_checkbox_btn_view=0x7f09002d;
+        public static final int ui_checkbox_list_view=0x7f09002c;
+        public static final int ui_checkbox_row_checkbox=0x7f09002e;
+        public static final int ui_checkbox_row_text_view=0x7f09002f;
+        public static final int ui_label_txt_decimal=0x7f090040;
+        public static final int ui_label_txt_edit=0x7f090038;
+        public static final int ui_label_txt_email=0x7f09003e;
+        public static final int ui_label_txt_multiline=0x7f09003c;
+        public static final int ui_label_txt_password=0x7f09003a;
+        public static final int ui_picker_btn_date_picker=0x7f090031;
+        public static final int ui_picker_txt_date_picker=0x7f090030;
+        public static final int ui_radio_button_btn_view=0x7f090035;
+        public static final int ui_radio_button_radio_button_nottobe=0x7f090034;
+        public static final int ui_radio_button_radio_button_tobe=0x7f090033;
+        public static final int ui_radio_button_radio_group=0x7f090032;
+        public static final int ui_spinner_spinner=0x7f090036;
+        public static final int ui_text_txt_decimal=0x7f090041;
+        public static final int ui_text_txt_edit=0x7f090039;
+        public static final int ui_text_txt_email=0x7f09003f;
+        public static final int ui_text_txt_multiline=0x7f09003d;
+        public static final int ui_text_txt_password=0x7f09003b;
+        public static final int ui_text_txt_simple=0x7f090037;
+        public static final int ui_toggle_switch=0x7f090043;
+        public static final int ui_toggle_toggle=0x7f090042;
+        public static final int un_custom_notification_btn_notify=0x7f090044;
+        public static final int user_notification_custom_toast_btn_toast=0x7f090045;
+        public static final int user_notification_custom_toast_layout=0x7f09004d;
     }
     public static final class layout {
         public static final int activity_add_contact=0x7f030000;
@@ -136,26 +140,28 @@ public final class R {
         public static final int add_contact_form=0x7f030016;
         public static final int contact_list=0x7f030017;
         public static final int layout_marvel_character=0x7f030018;
-        public static final int user_notificattion_custom_toast_image_text=0x7f030019;
+        public static final int textview_listview=0x7f030019;
+        public static final int user_notificattion_custom_toast_image_text=0x7f03001a;
     }
     public static final class string {
-        public static final int androidhttpclient_httpget_btn_send=0x7f070040;
+        public static final int androidhttpclient_httpget_btn_send=0x7f070041;
         public static final int app_name=0x7f070000;
-        public static final int bc_single_static_btn_broadcast=0x7f070039;
-        public static final int contacts_add_contact_btn_cancel=0x7f07004d;
-        public static final int contacts_add_contact_btn_save=0x7f07004e;
-        public static final int contacts_add_form_label_name=0x7f07004a;
-        public static final int contacts_add_form_txt_name_hint=0x7f07004b;
-        public static final int external_file_btn_view=0x7f070048;
-        public static final int hello_world=0x7f070037;
-        public static final int highest_number_btn_generate=0x7f070042;
-        public static final int highest_number_btn_reset=0x7f070043;
-        public static final int httpurlconn_httpget_btn_preferences=0x7f07003e;
-        public static final int httpurlconn_httpget_btn_send=0x7f07003d;
-        public static final int internal_file_btn_view=0x7f070046;
+        public static final int bc_single_static_btn_broadcast=0x7f07003a;
+        public static final int contacts_add_contact_btn_cancel=0x7f07004e;
+        public static final int contacts_add_contact_btn_save=0x7f07004f;
+        public static final int contacts_add_form_label_name=0x7f07004b;
+        public static final int contacts_add_form_txt_name_hint=0x7f07004c;
+        public static final int external_file_btn_view=0x7f070049;
+        public static final int hello_world=0x7f070038;
+        public static final int highest_number_btn_generate=0x7f070043;
+        public static final int highest_number_btn_reset=0x7f070044;
+        public static final int httpurlconn_httpget_btn_preferences=0x7f07003f;
+        public static final int httpurlconn_httpget_btn_send=0x7f07003e;
+        public static final int internal_file_btn_view=0x7f070047;
         public static final int main_label_btn_androidhttpclient=0x7f07000d;
         public static final int main_label_btn_bc_single_static=0x7f07000a;
         public static final int main_label_btn_contacts=0x7f070011;
+        public static final int main_label_btn_contacts_contactprovider=0x7f070012;
         public static final int main_label_btn_external_file=0x7f070010;
         public static final int main_label_btn_highest_number=0x7f07000e;
         public static final int main_label_btn_httpurlconnection=0x7f07000c;
@@ -172,88 +178,89 @@ public final class R {
         public static final int main_label_ui_toggle_button=0x7f070005;
         public static final int main_label_user_notification_custom_notification=0x7f070009;
         public static final int main_label_user_notification_custom_toast=0x7f070008;
-        public static final int socket_httpget_btn_send=0x7f07003b;
-        public static final int title_activity_add_contact=0x7f07004c;
+        public static final int socket_httpget_btn_send=0x7f07003c;
+        public static final int title_activity_add_contact=0x7f07004d;
         /**  AndroidHttpClientActivity 
          */
-        public static final int title_activity_android_http_client=0x7f07003f;
+        public static final int title_activity_android_http_client=0x7f070040;
         /**  BroadcastReceiverSingleStaticActivity 
          */
-        public static final int title_activity_broadcast_receiver_single_static=0x7f070038;
+        public static final int title_activity_broadcast_receiver_single_static=0x7f070039;
         /**  ContactsActivity 
          */
-        public static final int title_activity_contacts=0x7f070049;
+        public static final int title_activity_contacts=0x7f07004a;
+        public static final int title_activity_contacts_content_provider=0x7f070050;
         /**  ExternalFileActivity 
          */
-        public static final int title_activity_external_file=0x7f070047;
+        public static final int title_activity_external_file=0x7f070048;
         /**  HighestNumberSharedPreferencesActivity 
          */
-        public static final int title_activity_highest_number_shared_preferences=0x7f070041;
+        public static final int title_activity_highest_number_shared_preferences=0x7f070042;
         /**  HttpURLConnectionActivity 
          */
-        public static final int title_activity_http_urlconnection=0x7f07003c;
+        public static final int title_activity_http_urlconnection=0x7f07003d;
         /**  InternalFileActivity 
          */
-        public static final int title_activity_internal_file=0x7f070045;
-        public static final int title_activity_random_quotes_preferences=0x7f070044;
+        public static final int title_activity_internal_file=0x7f070046;
+        public static final int title_activity_random_quotes_preferences=0x7f070045;
         /**  SocketHttpGetActivity 
          */
-        public static final int title_activity_socket_http_get=0x7f07003a;
+        public static final int title_activity_socket_http_get=0x7f07003b;
         /**  UIButtonActivity 
          */
-        public static final int title_activity_uibutton=0x7f070012;
+        public static final int title_activity_uibutton=0x7f070013;
         /**  UICheckboxActivity 
          */
-        public static final int title_activity_uicheckbox=0x7f07001f;
+        public static final int title_activity_uicheckbox=0x7f070020;
         /**  UIPickerActivity 
          */
-        public static final int title_activity_uipicker=0x7f07002d;
+        public static final int title_activity_uipicker=0x7f07002e;
         /**  UIRadioButtonActivity 
          */
-        public static final int title_activity_uiradio_button=0x7f070021;
+        public static final int title_activity_uiradio_button=0x7f070022;
         /**  UISpinnerActivity 
          */
-        public static final int title_activity_uispinner=0x7f07002a;
+        public static final int title_activity_uispinner=0x7f07002b;
         /**  UITextActivity 
          */
-        public static final int title_activity_uitext=0x7f070016;
+        public static final int title_activity_uitext=0x7f070017;
         /**  UIToggleButtonActivity 
          */
-        public static final int title_activity_uitoggle_button=0x7f070025;
-        public static final int title_activity_uncustom_notification_pending=0x7f070036;
+        public static final int title_activity_uitoggle_button=0x7f070026;
+        public static final int title_activity_uncustom_notification_pending=0x7f070037;
         /**  UserNotificationCustomNotificationActivity 
          */
-        public static final int title_activity_user_notification_custom_notification=0x7f070034;
+        public static final int title_activity_user_notification_custom_notification=0x7f070035;
         /**  UserNotificationCustomToastActivity 
          */
-        public static final int title_activity_user_notification_custom_toast=0x7f070030;
-        public static final int ui_button_desc_btn_image=0x7f070014;
-        public static final int ui_button_label_btn_compound=0x7f070015;
-        public static final int ui_button_label_btn_simple=0x7f070013;
-        public static final int ui_checkbox_btn_view=0x7f070020;
-        public static final int ui_picker_date_picker=0x7f07002e;
-        public static final int ui_picker_date_picker_calendar_desc=0x7f07002f;
-        public static final int ui_radio_button_btn_view=0x7f070024;
-        public static final int ui_radio_button_radio_button_nottobe=0x7f070023;
-        public static final int ui_radio_button_radio_button_tobe=0x7f070022;
-        public static final int ui_spinner_label=0x7f07002b;
-        public static final int ui_spinner_prompt=0x7f07002c;
-        public static final int ui_text_hint_txt_decimal=0x7f07001e;
-        public static final int ui_text_hint_txt_email=0x7f07001c;
-        public static final int ui_text_label_txt_decimal=0x7f07001d;
-        public static final int ui_text_label_txt_edit=0x7f070018;
-        public static final int ui_text_label_txt_email=0x7f07001b;
-        public static final int ui_text_label_txt_multiline=0x7f07001a;
-        public static final int ui_text_label_txt_password=0x7f070019;
-        public static final int ui_text_txt_simple=0x7f070017;
-        public static final int ui_toggle_switch_off=0x7f070029;
-        public static final int ui_toggle_switch_on=0x7f070028;
-        public static final int ui_toggle_toggle_off=0x7f070027;
-        public static final int ui_toggle_toggle_on=0x7f070026;
-        public static final int un_custom_notification_btn_notify=0x7f070035;
-        public static final int user_notification_custom_toast_btn_toast=0x7f070031;
-        public static final int user_notification_custom_toast_event_added=0x7f070032;
-        public static final int user_notification_custom_toast_event_added_desc=0x7f070033;
+        public static final int title_activity_user_notification_custom_toast=0x7f070031;
+        public static final int ui_button_desc_btn_image=0x7f070015;
+        public static final int ui_button_label_btn_compound=0x7f070016;
+        public static final int ui_button_label_btn_simple=0x7f070014;
+        public static final int ui_checkbox_btn_view=0x7f070021;
+        public static final int ui_picker_date_picker=0x7f07002f;
+        public static final int ui_picker_date_picker_calendar_desc=0x7f070030;
+        public static final int ui_radio_button_btn_view=0x7f070025;
+        public static final int ui_radio_button_radio_button_nottobe=0x7f070024;
+        public static final int ui_radio_button_radio_button_tobe=0x7f070023;
+        public static final int ui_spinner_label=0x7f07002c;
+        public static final int ui_spinner_prompt=0x7f07002d;
+        public static final int ui_text_hint_txt_decimal=0x7f07001f;
+        public static final int ui_text_hint_txt_email=0x7f07001d;
+        public static final int ui_text_label_txt_decimal=0x7f07001e;
+        public static final int ui_text_label_txt_edit=0x7f070019;
+        public static final int ui_text_label_txt_email=0x7f07001c;
+        public static final int ui_text_label_txt_multiline=0x7f07001b;
+        public static final int ui_text_label_txt_password=0x7f07001a;
+        public static final int ui_text_txt_simple=0x7f070018;
+        public static final int ui_toggle_switch_off=0x7f07002a;
+        public static final int ui_toggle_switch_on=0x7f070029;
+        public static final int ui_toggle_toggle_off=0x7f070028;
+        public static final int ui_toggle_toggle_on=0x7f070027;
+        public static final int un_custom_notification_btn_notify=0x7f070036;
+        public static final int user_notification_custom_toast_btn_toast=0x7f070032;
+        public static final int user_notification_custom_toast_event_added=0x7f070033;
+        public static final int user_notification_custom_toast_event_added_desc=0x7f070034;
     }
     public static final class style {
         /** 

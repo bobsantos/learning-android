@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/generic_text"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/generic_text_height"
+    android:drawableLeft="@drawable/ic_action_user"
+    android:drawablePadding="5dp"
+    android:textSize="24sp" >
+
+</TextView>

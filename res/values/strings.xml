@@ -21,6 +21,7 @@
     <string name="main_label_btn_internal_file">Internal File</string>
     <string name="main_label_btn_external_file">External File</string>
     <string name="main_label_btn_contacts">Contacts</string>
+    <string name="main_label_btn_contacts_contactprovider">Contacts ContentProvider</string>
 
     <!-- UIButtonActivity -->
     <string name="title_activity_uibutton">UI Button</string>
@@ -124,5 +125,6 @@
     <string name="title_activity_add_contact">Add a Contact</string>
     <string name="contacts_add_contact_btn_cancel">Cancel</string>
     <string name="contacts_add_contact_btn_save">Save</string>
+    <string name="title_activity_contacts_content_provider">Contacts ContentProvider Activity</string>
 
 </resources>
