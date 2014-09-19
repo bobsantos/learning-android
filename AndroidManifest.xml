@@ -118,6 +118,14 @@
             android:name=".ContactsContentProviderActivity"
             android:label="@string/title_activity_contacts_content_provider" >
         </activity>
+
+        <service android:name=".service.DownloadService" >
+        </service>
+
+        <activity
+            android:name=".DownloadServiceActivity"
+            android:label="@string/title_activity_download_service" >
+        </activity>
     </application>
 
 </manifest>

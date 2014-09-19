@@ -31,6 +31,7 @@ public class MainActivity extends Activity {
         Button btnExternalFile = (Button) findViewById(R.id.main_btn_external_file);
         Button btnContacts = (Button) findViewById(R.id.main_btn_contacts);
         Button btnContactsContentProvider = (Button) findViewById(R.id.main_btn_contacts_contactprovider);
+        Button btnDownloadService = (Button) findViewById(R.id.main_btn_download_service);
         
         btnUIButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
@@ -137,6 +138,12 @@ public class MainActivity extends Activity {
         btnContactsContentProvider.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
 				startActivity(new Intent(getApplicationContext(), ContactsContentProviderActivity.class));
+			}
+		});
+        
+        btnDownloadService.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View arg0) {
+				startActivity(new Intent(getApplicationContext(), DownloadServiceActivity.class));
 			}
 		});
     }

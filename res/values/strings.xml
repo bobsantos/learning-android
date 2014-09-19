@@ -22,6 +22,7 @@
     <string name="main_label_btn_external_file">External File</string>
     <string name="main_label_btn_contacts">Contacts</string>
     <string name="main_label_btn_contacts_contactprovider">Contacts ContentProvider</string>
+    <string name="main_label_btn_download_service">Download Service</string>
 
     <!-- UIButtonActivity -->
     <string name="title_activity_uibutton">UI Button</string>
@@ -125,6 +126,12 @@
     <string name="title_activity_add_contact">Add a Contact</string>
     <string name="contacts_add_contact_btn_cancel">Cancel</string>
     <string name="contacts_add_contact_btn_save">Save</string>
+    
+    <!-- ContactsContentProviderActivity -->
     <string name="title_activity_contacts_content_provider">Contacts ContentProvider Activity</string>
-
+    
+    <!-- DownloadServiceActivity -->
+    <string name="title_activity_download_service">Download Service Activity</string>
+    <string name="download_service_btn_download">Download</string>
+	<string name="download_service_label_status">Status</string>
 </resources>
