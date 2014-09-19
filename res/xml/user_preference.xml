@@ -5,6 +5,7 @@
         android:title="Text Size"
         android:entries="@array/random_quotes_textSize"
         android:entryValues="@array/random_quotes_textSize"
+        android:summary="Select the text size"
         android:dialogTitle="Select Text Size" />
 
 </PreferenceScreen>
