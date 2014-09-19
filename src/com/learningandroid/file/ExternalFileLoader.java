@@ -30,7 +30,7 @@ public class ExternalFileLoader extends AsyncTask<String, Void, String> {
 		
 		if(isExternalStorageReadyForRead()){
 			try {
-				File docs = ctx.getExternalFilesDir(Environment.DIRECTORY_DOCUMENTS);
+				File docs = ctx.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS);
 				File file = new File(docs, fileName);
 				
 				reader = new BufferedReader(new InputStreamReader(new FileInputStream(file)));

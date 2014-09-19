@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+        
+        <TextView android:text="@string/contacts_add_form_label_name" 
+            android:labelFor="@+id/contacts_add_form_txt_name" />
+        <EditText android:id="@+id/contacts_add_form_txt_name"
+            android:hint="@string/contacts_add_form_txt_name_hint"
+            android:inputType="textCapWords" />
+    </TableRow>
+    
+</TableLayout>

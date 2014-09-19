@@ -25,7 +25,7 @@ public class ExternalFileEditor extends AsyncTask<String, Void, Void> {
 		
 		if(isExternalStorageReadyForWrite()){
 			try {
-				File docs = ctx.getExternalFilesDir(Environment.DIRECTORY_DOCUMENTS);
+				File docs = ctx.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS);
 				File file = new File(docs, fileName);
 				pw = new PrintWriter(new OutputStreamWriter(new FileOutputStream(file)));
 				pw.append(text);

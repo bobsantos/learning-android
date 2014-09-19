@@ -29,6 +29,7 @@ public class MainActivity extends Activity {
         Button btnHighestNumber = (Button) findViewById(R.id.main_btn_highest_number);
         Button btnInternalFile = (Button) findViewById(R.id.main_btn_internal_file);
         Button btnExternalFile = (Button) findViewById(R.id.main_btn_external_file);
+        Button btnContacts = (Button) findViewById(R.id.main_btn_contacts);
         
         btnUIButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
@@ -123,6 +124,12 @@ public class MainActivity extends Activity {
         btnExternalFile.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
 				startActivity(new Intent(getApplicationContext(), ExternalFileActivity.class));
+			}
+		});
+        
+        btnContacts.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View arg0) {
+				startActivity(new Intent(getApplicationContext(), ContactsActivity.class));
 			}
 		});
     }
